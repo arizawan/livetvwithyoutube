@@ -1,0 +1,7 @@
+<?php
+
+// your code goes here
+
+$vid_duration = '202';
+$duration_formatted = str_pad(floor($vid_duration/60), 2, '0', STR_PAD_LEFT) . ':' . str_pad($vid_duration%60, 2, '0', STR_PAD_LEFT);
+echo $duration_formatted;
